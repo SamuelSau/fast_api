@@ -20,7 +20,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
 #call our routers from other files for readibility
 app.include_router(post.router)
 app.include_router(user.router)
